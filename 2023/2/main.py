@@ -29,7 +29,7 @@ def main():
 
 
 def isPossibleGame(gameSet):
-    # For each set in game, count the number of cubes and return count >= limit foreach color
+    # For each set in game, count the number of cubes and return count > limit foreach color
     # How game works: for each set, grab handful of cubes, show them, then put back in bag
     for gs in gameSet:
         for handful in gs:
